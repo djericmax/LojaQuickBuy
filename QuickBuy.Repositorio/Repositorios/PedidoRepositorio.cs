@@ -1,8 +1,9 @@
-﻿using QuickBuy.Dominio.Entidades;
+﻿using QuickBuy.Dominio.Contratos;
+using QuickBuy.Dominio.Entidades;
 
 namespace QuickBuy.Repositorio.Repositorios
 {
-    public class PedidoRepositorio : BaseRepositorio<Pedido>, ProdudoRepositorio
+    public class PedidoRepositorio : BaseRepositorio<Pedido>, IPedidoRepositorio
     {
     }
 }
